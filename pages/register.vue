@@ -1,5 +1,5 @@
 <template>
-  <div id="login">
+  <div id="register">
     <b-form @submit="onSubmit">
       <b-form-group
         id="input-group-1"
