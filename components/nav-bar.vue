@@ -10,7 +10,7 @@
             <b-dropdown text="nickramsay19" variant="dark text-light" right>
 
               <!-- Friend invites -->
-              <b-dropdown-group id="dropdown-group-1" header="Friends">
+              <b-dropdown-group id="dropdown-group-1" header="Friend invites">
                 <b-dropdown-item-button>First Grouped item</b-dropdown-item-button>
                 <b-dropdown-item-button>Second Grouped Item</b-dropdown-item-button>
               </b-dropdown-group>
@@ -46,6 +46,7 @@
 
 <script>
 export default {
+  name: 'nav-bar',
   data: () => {
     return {
       loggedIn: true,
@@ -62,4 +63,6 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+
+</style>
