@@ -10,7 +10,7 @@
                 </b-nav>
             </b-col>
             </b-col>
-                <nuxt-child></nuxt-child>
+                <nuxt-child style="width: 70%;"></nuxt-child>
             </b-col>
         </b-row>
     </div>
